@@ -1,0 +1,30 @@
+.Header{
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .go-back{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    span {
+      margin-left: 0.5rem
+    }
+  }
+
+  .logo{
+    width: 250px !important;
+    cursor: pointer;
+  }
+
+  .sign-up{
+    button {
+      padding: 0.5rem 1rem;
+      background: none;
+      border: 1px solid #CCC;
+      cursor: pointer;
+    }
+  }
+}
